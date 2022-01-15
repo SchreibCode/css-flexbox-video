@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&display=swap');
 
 :root{
     --color-primary: #4DE572;
@@ -24,7 +24,7 @@
     --color-blue: #4D74E5;
     --color-red: #E54DC0;
     --color-yellow: #E5BE4D;
-    --font-family: 'Raleway', sans-serif;
+    --font-family: 'Open Sans', sans-serif;
     --border-dashed: 0.5rem dashed var(--color-secondary-light-800);
     --border-solid: 0.5rem solid var(--color-secondary);
 }
@@ -33,6 +33,10 @@ html {
     box-sizing: border-box;
     font-size: 16px;
     font-family: var(--font-family);
+}
+
+html, body{
+    height:100%;
 }
 
 *, *:before, *:after {
@@ -53,7 +57,7 @@ body{
     background-color: var(--color-secondary);
 }
 
-header{
+header-video{
     padding: 4rem;
     display: flex;
     justify-content: center;
@@ -61,7 +65,7 @@ header{
     align-items: center;
 }
 
-header h1{
+header-video h1{
     font-size: 3rem;
     font-weight: 700;
     color: white
