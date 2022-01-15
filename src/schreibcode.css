@@ -36,7 +36,7 @@ html {
 }
 
 html, body{
-    height:100%;
+    min-height:100%;
 }
 
 *, *:before, *:after {
@@ -57,7 +57,7 @@ body{
     background-color: var(--color-secondary);
 }
 
-header-video{
+.header-video{
     padding: 4rem;
     display: flex;
     justify-content: center;
@@ -65,7 +65,7 @@ header-video{
     align-items: center;
 }
 
-header-video h1{
+.header-video h1{
     font-size: 3rem;
     font-weight: 700;
     color: white
