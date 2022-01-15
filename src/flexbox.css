@@ -1,0 +1,42 @@
+.container{
+    min-height: 400px;
+    width: 80%;
+    margin: 0 auto;
+    border: 0.5rem dashed var(--color-secondary-light-800);
+    padding:0.5rem;
+    display: grid;
+    grid-template-areas: "a a b b"
+    "a a b b"
+    "c c c d"
+    "c c c d";
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.item{
+    color: var(--color-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-weight: 900;
+    border: 0.5rem solid var(--color-secondary);
+    font-size: 2rem;
+}
+
+.item:nth-child(1){
+    grid-area: a;
+}
+
+.item:nth-child(2){
+    grid-area: b;
+}
+
+.item:nth-child(3){
+    grid-area: c;
+}
+
+.item:nth-child(4){
+    grid-area: d;
+}
