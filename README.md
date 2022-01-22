@@ -1,6 +1,6 @@
 # CSS Flexbox
 
-- In diesem repository findest du den Code zum Video: **CSS Flexbox einfach erklärt | Mit Beispielen**.
+- In diesem repository findest du den Code zum Video: **Lern Flexbox in 18 Minuten - Mit Übungen**.
 - Falls du das Video noch nicht gesehen hast kannst du es hier:
   [Link zum Video](https://www.youtube.com/watch?v=VUCFWWdjl2M) anschauen.
 
