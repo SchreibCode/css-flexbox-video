@@ -11,7 +11,7 @@
 }
 
 .item{
-    width:120px;
+    width:200px;
     height:120px;
     color: var(--color-secondary);
     display: flex;
@@ -34,9 +34,23 @@
 
 .flex-container{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .flex-child{
+    /*flex-grow: 1;*/
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+.flex-child:first-child{
+    /*flex-grow: 1;*/
+}
+
+.flex-child:nth-child(2){
 
 }
 

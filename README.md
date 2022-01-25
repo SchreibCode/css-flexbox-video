@@ -1,6 +1,7 @@
+![youtube-thumbnail](./img/css-flexbox.png)
+
 # CSS Flexbox
 
-#### Hey und welcome bei SchreibCode<br>
 - In diesem repository findest du den Code zum Video: **CSS Flexbox erklärt | Mit Beispielen**.
 - Falls du das Video noch nicht gesehen hast kannst du es hier:
   [Link zum Video](https://www.youtube.com) anschauen.
