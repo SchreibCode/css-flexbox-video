@@ -1,4 +1,4 @@
-<img src="https://github.com/SchreibCode/css-flexbox-video/blob/main/img/css-flexbox.png" alt="Youtube Thumbnail"/>
+<img src="https://github.com/SchreibCode/css-flexbox-video/blob/main/img/css-flexbox.png" width="450" alt="Youtube Thumbnail"/>
 
 # CSS Flexbox
 
